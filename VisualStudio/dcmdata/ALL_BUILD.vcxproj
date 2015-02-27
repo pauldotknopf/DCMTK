@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1597849A-BB48-4C81-B6F6-482409648702}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Git\dcmtk\dcmdata\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Git/dcmtk/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Git/dcmtk -BD:/Git/dcmtk/VisualStudio --check-stamp-file D:\Git\dcmtk\VisualStudio\dcmdata\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Git/dcmtk/dcmdata/CMakeLists.txt;D:\Git\dcmtk\dcmdata\CMakeLists.txt;D:\Git\dcmtk\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Git\dcmtk\VisualStudio\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Git/dcmtk/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Git/dcmtk -BD:/Git/dcmtk/VisualStudio --check-stamp-file D:\Git\dcmtk\VisualStudio\dcmdata\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Git/dcmtk/dcmdata/CMakeLists.txt;D:\Git\dcmtk\dcmdata\CMakeLists.txt;D:\Git\dcmtk\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Git\dcmtk\VisualStudio\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Git/dcmtk/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Git/dcmtk -BD:/Git/dcmtk/VisualStudio --check-stamp-file D:\Git\dcmtk\VisualStudio\dcmdata\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Git/dcmtk/dcmdata/CMakeLists.txt;D:\Git\dcmtk\dcmdata\CMakeLists.txt;D:\Git\dcmtk\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Git\dcmtk\VisualStudio\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Git/dcmtk/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Git/dcmtk -BD:/Git/dcmtk/VisualStudio --check-stamp-file D:\Git\dcmtk\VisualStudio\dcmdata\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Git/dcmtk/dcmdata/CMakeLists.txt;D:\Git\dcmtk\dcmdata\CMakeLists.txt;D:\Git\dcmtk\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Git\dcmtk\VisualStudio\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/dcm2pdf.vcxproj">
+      <Project>370F56F7-B86F-40C8-838F-F1A4D69656BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/dcm2xml.vcxproj">
+      <Project>AAE8519F-E191-434C-ABA7-76BA80869C3C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/dcmconv.vcxproj">
+      <Project>D0B78943-832B-4C46-8A5C-E902CD28604B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/dcmcrle.vcxproj">
+      <Project>21FF9D3F-AFDC-496E-B4A7-752F333F25FA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/libsrc/dcmdata.vcxproj">
+      <Project>CF7A4B91-41B9-4EEB-B0E3-F0B1859CABB6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/tests/dcmdata_tests.vcxproj">
+      <Project>E4D0EFA4-AFA1-4657-8DFF-8D71DDAA429E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/dcmdrle.vcxproj">
+      <Project>D3D60AB7-CBB0-4845-BFC6-923C6F838EB5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/dcmdump.vcxproj">
+      <Project>4779B876-E371-4B31-8C2C-72B35E76C68D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/dcmftest.vcxproj">
+      <Project>22DCA884-83CD-4B98-8D67-032B8C24E26A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/dcmgpdir.vcxproj">
+      <Project>80AADB7A-47EC-45B5-983E-ED866513DFA7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/dcmodify.vcxproj">
+      <Project>AD55B670-FB48-44D0-9E12-47F9B130CA03</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/dump2dcm.vcxproj">
+      <Project>BBFA8D65-0BA0-49DB-880A-39CAEB81C94B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/libi2d/i2d.vcxproj">
+      <Project>82F3EED8-A62E-4154-B68B-2E79040E0ED1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/img2dcm.vcxproj">
+      <Project>A9EF25AA-3C2E-4C95-95D3-0E14C189FA50</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/pdf2dcm.vcxproj">
+      <Project>B238511B-D247-498F-A694-DAD9E8D5F78C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/apps/xml2dcm.vcxproj">
+      <Project>5BCCCD55-F391-484C-AFAB-C20EAEDAE001</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

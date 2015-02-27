@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6496C247-A526-4688-B2B5-DC07D362F9F2}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>dcmsr</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Git\dcmtk\VisualStudio\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dcmsr.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dcmsr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Git\dcmtk\VisualStudio\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dcmsr.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dcmsr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Git\dcmtk\VisualStudio\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dcmsr.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dcmsr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Git\dcmtk\VisualStudio\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dcmsr.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dcmsr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;dcmsr_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;dcmsr_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;dcmsr_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;dcmsr_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;dcmsr_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;dcmsr_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;dcmsr_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;dcmsr_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Git\dcmtk\VisualStudio\config\include;D:\Git\dcmtk\ofstd\include;D:\Git\dcmtk\oflog\include;D:\Git\dcmtk\dcmdata\include;D:\Git\dcmtk\dcmimgle\include;D:\Git\dcmtk\dcmimage\include;D:\Git\dcmtk\dcmjpeg\include;D:\Git\dcmtk\dcmjpls\include;D:\Git\dcmtk\dcmtls\include;D:\Git\dcmtk\dcmnet\include;D:\Git\dcmtk\dcmsr\include;D:\Git\dcmtk\dcmsign\include;D:\Git\dcmtk\dcmwlm\include;D:\Git\dcmtk\dcmqrdb\include;D:\Git\dcmtk\dcmpstat\include;D:\Git\dcmtk\dcmrt\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\zlib-1.2.5\include;D:\Git\dcmtk\SupportLibraries\dcmtk-3.6.0-win32-i386-support_MD\libxml2-2.7.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Git\dcmtk\dcmsr\libsrc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Git/dcmtk/dcmsr/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Git/dcmtk -BD:/Git/dcmtk/VisualStudio --check-stamp-file D:\Git\dcmtk\VisualStudio\dcmsr\libsrc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Git/dcmtk/dcmsr/libsrc/CMakeLists.txt;D:\Git\dcmtk\dcmsr\libsrc\CMakeLists.txt;D:\Git\dcmtk\dcmsr\libsrc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Git\dcmtk\VisualStudio\dcmsr\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Git/dcmtk/dcmsr/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Git/dcmtk -BD:/Git/dcmtk/VisualStudio --check-stamp-file D:\Git\dcmtk\VisualStudio\dcmsr\libsrc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Git/dcmtk/dcmsr/libsrc/CMakeLists.txt;D:\Git\dcmtk\dcmsr\libsrc\CMakeLists.txt;D:\Git\dcmtk\dcmsr\libsrc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Git\dcmtk\VisualStudio\dcmsr\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Git/dcmtk/dcmsr/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Git/dcmtk -BD:/Git/dcmtk/VisualStudio --check-stamp-file D:\Git\dcmtk\VisualStudio\dcmsr\libsrc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Git/dcmtk/dcmsr/libsrc/CMakeLists.txt;D:\Git\dcmtk\dcmsr\libsrc\CMakeLists.txt;D:\Git\dcmtk\dcmsr\libsrc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Git\dcmtk\VisualStudio\dcmsr\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Git/dcmtk/dcmsr/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Git/dcmtk -BD:/Git/dcmtk/VisualStudio --check-stamp-file D:\Git\dcmtk\VisualStudio\dcmsr\libsrc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Git/dcmtk/dcmsr/libsrc/CMakeLists.txt;D:\Git\dcmtk\dcmsr\libsrc\CMakeLists.txt;D:\Git\dcmtk\dcmsr\libsrc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Git\dcmtk\VisualStudio\dcmsr\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrcitem.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrcodtn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrcodvl.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrcomtn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrcomvl.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrcontn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrcsidl.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrdattn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrdoc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrdocst.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrdoctn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrdoctr.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrdtitn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrimgfr.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrimgse.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrimgtn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrimgvl.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrnumtn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrnumvl.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrpnmtn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrrefin.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrreftn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrscogr.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrsc3gr.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrscotn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrsc3tn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrscovl.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrsc3vl.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrsoprf.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrstrvl.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrtcodt.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrtcosp.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrtcotn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrtcoto.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrtcovl.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrtextn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrtimtn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrtncsr.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrtree.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrtypes.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsruidtn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrwavch.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrwavtn.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrwavvl.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrxmlc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrxmld.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsriodcc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrbascc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrenhcc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrcomcc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrkeycc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrmamcc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrchecc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrcolcc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrprocc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrxrdcc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrspecc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrmaccc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrimpcc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrc3dcc.cc"  />
+    <ClCompile Include="D:\Git\dcmtk\dcmsr\libsrc\dsrrrdcc.cc"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/ZERO_CHECK.vcxproj">
+      <Project>00490DF6-055A-4CBE-A8A0-BFF27C66B56D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmdata/libsrc/dcmdata.vcxproj">
+      <Project>CF7A4B91-41B9-4EEB-B0E3-F0B1859CABB6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmimage/libsrc/dcmimage.vcxproj">
+      <Project>8123CC8F-131F-48E1-91AE-911770E4974C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/dcmimgle/libsrc/dcmimgle.vcxproj">
+      <Project>C5338392-9F62-4382-A666-44CA0E24DE80</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/oflog/libsrc/oflog.vcxproj">
+      <Project>C52ADFCF-7F9B-4C3E-AE6F-4DCA2A9340C4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Git/dcmtk/VisualStudio/ofstd/libsrc/ofstd.vcxproj">
+      <Project>155FE9D2-C41D-4362-898B-799763CAF754</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
